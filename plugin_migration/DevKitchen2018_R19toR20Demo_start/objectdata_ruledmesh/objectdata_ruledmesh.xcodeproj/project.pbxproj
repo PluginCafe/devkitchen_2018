@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634693C1217F7D2000B080B1 /* libcinema.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63482F441F28A89900958726 /* libcinema.framework.a */; };
+		63D62B0E1FEDCA6B009375D8 /* objectdata_ruledmesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63D62B0A1FEDCA6B009375D8 /* objectdata_ruledmesh.cpp */; };
+		63D62B101FEDCA6B009375D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63D62B0C1FEDCA6B009375D8 /* main.cpp */; };
+		63D62B111FEDCA6B009375D8 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D62B0D1FEDCA6B009375D8 /* main.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63482F431F28A89900958726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0000;
+			remoteInfo = cinema.framework;
+		};
+		63482F451F28A89900958726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0100;
+			remoteInfo = "cinema.framework static library";
+		};
+		63482F481F28A8BD00958726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C5CDEA3F470FF41000000;
+			remoteInfo = cinema.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6387B7261DB50FEF00705017 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		63D62B0A1FEDCA6B009375D8 /* objectdata_ruledmesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = objectdata_ruledmesh.cpp; path = source/objectdata_ruledmesh.cpp; sourceTree = SOURCE_ROOT; };
+		63D62B0C1FEDCA6B009375D8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		63D62B0D1FEDCA6B009375D8 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = source/main.h; sourceTree = SOURCE_ROOT; };
+		8ACD68381C66E7D100F34089 /* sanitizerbase.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = sanitizerbase.xcconfig; path = ./frameworks/settings/sanitizerbase.xcconfig; sourceTree = C4D_19_068; };
+		A08C5CDEA3A66833397B0000 /* objectdata_ruledmesh.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = objectdata_ruledmesh.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A668333900000000000000 /* debugbase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debugbase.xcconfig; path = ./frameworks/settings/debugbase.xcconfig; sourceTree = C4D_19_068; };
+		A0A668333900000000050000 /* releasebase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = releasebase.xcconfig; path = ./frameworks/settings/releasebase.xcconfig; sourceTree = C4D_19_068; };
+		A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cinema.framework.xcodeproj; path = ./frameworks/cinema.framework/project/cinema.framework.xcodeproj; sourceTree = C4D_19_068; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A6683339000000000F0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634693C1217F7D2000B080B1 /* libcinema.framework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A668333900000000140000 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A0A668333900000000190000 /* configurations */ = {
+			isa = PBXGroup;
+			children = (
+				8ACD68381C66E7D100F34089 /* sanitizerbase.xcconfig */,
+				A0A668333900000000000000 /* debugbase.xcconfig */,
+				A0A668333900000000050000 /* releasebase.xcconfig */,
+			);
+			name = configurations;
+			sourceTree = "<group>";
+		};
+		A0A6683339000000001E0000 = {
+			isa = PBXGroup;
+			children = (
+				6387B7261DB50FEF00705017 /* res */,
+				A0A668333900000000190000 /* configurations */,
+				A0A668333900000000140000 /* libs */,
+				A0A668333900000000230000 /* products */,
+				A0A6683339CA90681B000000 /* source */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A668333900000000230000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C5CDEA3A66833397B0000 /* objectdata_ruledmesh.dylib */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A0A6683339CA90681B000000 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				63D62B0A1FEDCA6B009375D8 /* objectdata_ruledmesh.cpp */,
+				63D62B0C1FEDCA6B009375D8 /* main.cpp */,
+				63D62B0D1FEDCA6B009375D8 /* main.h */,
+			);
+			name = source;
+			path = ../sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A0A6683339F470FF41280000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				63482F441F28A89900958726 /* libcinema.framework.a */,
+				63482F461F28A89900958726 /* libcinema.framework_static.a */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0A6683339000000002D0000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D62B111FEDCA6B009375D8 /* main.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A08C5CDEA3A6683339000000 /* objectdata_ruledmesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "objectdata_ruledmesh" */;
+			buildPhases = (
+				A0A668333900000000320000 /* Sources */,
+				A0A6683339000000000F0000 /* Frameworks */,
+				A0A6683339000000002D0000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63482F491F28A8BD00958726 /* PBXTargetDependency */,
+			);
+			name = objectdata_ruledmesh;
+			productName = RLMAndSerial;
+			productReference = A08C5CDEA3A66833397B0000 /* objectdata_ruledmesh.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A6683339000000003C0000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "MAXON Computer GmbH";
+			};
+			buildConfigurationList = A0A668333900000000410000 /* Build configuration list for PBXProject "objectdata_ruledmesh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0A6683339000000001E0000;
+			productRefGroup = A0A668333900000000230000 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A0A6683339F470FF41280000 /* products */;
+					ProjectRef = A0A6683339F470FF41020000 /* cinema.framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A08C5CDEA3A6683339000000 /* objectdata_ruledmesh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63482F441F28A89900958726 /* libcinema.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework.a;
+			remoteRef = 63482F431F28A89900958726 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63482F461F28A89900958726 /* libcinema.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework_static.a;
+			remoteRef = 63482F451F28A89900958726 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A668333900000000320000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D62B101FEDCA6B009375D8 /* main.cpp in Sources */,
+				63D62B0E1FEDCA6B009375D8 /* objectdata_ruledmesh.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63482F491F28A8BD00958726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cinema.framework;
+			targetProxy = 63482F481F28A8BD00958726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8ACD68351C66E7A300F34089 /* Sanitize */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACD68381C66E7D100F34089 /* sanitizerbase.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = objectdata_ruledmesh;
+				SYMROOT = "$(C4D_19_068)/(build)";
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description '$(C4D_19_068)/frameworks/cinema.framework/source/'** $(inherited)";
+			};
+			name = Sanitize;
+		};
+		8ACD68361C66E7A300F34089 /* Sanitize */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				INSTALL_PATH = /.;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(C4D_19_068)/(build)";
+			};
+			name = Sanitize;
+		};
+		A0A6683339000000004B0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000000000 /* debugbase.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = objectdata_ruledmesh;
+				SYMROOT = "$(C4D_19_068)/(build)";
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description '$(C4D_19_068)/frameworks/cinema.framework/source/'** $(inherited)";
+			};
+			name = Debug;
+		};
+		A0A668333900000000500000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000050000 /* releasebase.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				PRODUCT_NAME = objectdata_ruledmesh;
+				SYMROOT = "$(C4D_19_068)/(build)";
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description '$(C4D_19_068)/frameworks/cinema.framework/source/'** $(inherited)";
+			};
+			name = Release;
+		};
+		A0A6683339000000005A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				INSTALL_PATH = /.;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(C4D_19_068)/(build)";
+			};
+			name = Debug;
+		};
+		A0A6683339000000005F0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				INSTALL_PATH = /.;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(C4D_19_068)/(build)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A668333900000000410000 /* Build configuration list for PBXProject "objectdata_ruledmesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000004B0000 /* Debug */,
+				8ACD68351C66E7A300F34089 /* Sanitize */,
+				A0A668333900000000500000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "objectdata_ruledmesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000005A0000 /* Debug */,
+				8ACD68361C66E7A300F34089 /* Sanitize */,
+				A0A6683339000000005F0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A6683339000000003C0000 /* Project object */;
+}

@@ -1,0 +1,14 @@
+// Supported platforms
+Platform=Win64;OSX
+
+// Type of project
+Type=Solution
+
+// Name of the project
+Name=DevKitchen2018_R19toR20Demo_end
+
+// Additional solution files
+AdditionalSolutionFiles=
+
+// Projects part of the solution
+Solution=/DevKitchen2018_R19toR20Demo_end/objectdata_ruledmesh;

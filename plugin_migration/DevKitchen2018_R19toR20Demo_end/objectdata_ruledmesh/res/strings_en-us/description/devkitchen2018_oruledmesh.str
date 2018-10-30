@@ -1,0 +1,13 @@
+STRINGTABLE devkitchen2018_oruledmesh
+{
+  DEVKITCHEN2018_RULEDMESH                     "Ruled Mesh";
+
+  DEVKITCHEN2018_RULEDMESH_S_STEPS             "S-steps";
+  DEVKITCHEN2018_RULEDMESH_T_STEPS             "T-steps";
+  DEVKITCHEN2018_RULEDMESH_FLIP_FIRST          "Flip 1st. Curve";
+  DEVKITCHEN2018_RULEDMESH_FLIP_SECOND         "Flip 2nd. Curve";
+  DEVKITCHEN2018_RULEDMESH_PARAM_FIRST         "1st. Curve Parametrization";
+  DEVKITCHEN2018_RULEDMESH_PARAM_SECOND        "2nd. Curve Parametrization";
+  DEVKITCHEN2018_RULEDMESH_PARAM_UNIFORM       "Uniform";
+  DEVKITCHEN2018_RULEDMESH_PARAM_NATURAL       "Natural";
+}

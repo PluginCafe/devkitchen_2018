@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="generated">
+      <UniqueIdentifier>{640498D6-95AD-B003-0000-5284111A998F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated\hxx">
+      <UniqueIdentifier>{640498D6-95AD-B003-8ACC-618A6830A19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{640498D6-95AD-B003-0000-00000001B8A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\description">
+      <UniqueIdentifier>{640498D6-95AD-B003-9C54-D849A21EBAC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{640498D6-95AD-B003-0000-0000CA90681B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\generated\hxx\register.cpp">
+      <Filter>generated\hxx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\objectdata_ruledmesh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\res\c4d_symbols.h">
+      <Filter>res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\res\description\oruledmesh.h">
+      <Filter>res\description</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\objectdata_ruledmesh.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
