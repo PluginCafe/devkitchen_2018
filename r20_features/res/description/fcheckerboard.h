@@ -1,0 +1,8 @@
+#ifndef FCHECKERBOARD_H__
+#define FCHECKERBOARD_H__
+
+enum
+{
+	FIELD_CHECKERBOARD_SIZE = 1000
+};
+#endif	// FCHECKERBOARD_H__

@@ -1,0 +1,6 @@
+STRINGTABLE Fcheckerboard
+{
+	Fcheckerboard														"Checkerboard Field";
+	
+	FIELD_CHECKERBOARD_SIZE									"Size";
+}

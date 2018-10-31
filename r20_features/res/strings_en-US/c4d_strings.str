@@ -1,0 +1,25 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_CREATE_VOLUMEBUILDER_COMMAND "Create Volume Builder";
+
+	IDS_READ_VOLUME_COMMAND "Read Volume";
+
+	IDS_CREATE_VOLUME_COMMAND "Create Volume";
+
+	IDS_SUBSTRACT_OBJECTS_COMMAND "Substract Objects";
+
+	IDS_SAMPLE_FIELDOBJECT_COMMAND "Sample FieldObject";
+
+	IDS_SAMPLE_FIELDLIST_COMMAND "Sample FieldList";
+
+	IDS_FCHECKERBOX "Checkerboard Field";
+
+	IDS_NEXTNEIGHBOR_LAYER "Next Neighbor Distance";
+
+	IDS_CREATE_MULTIINSTANCE_COMMAND "Create Multi-Instance";
+
+	IDS_READ_MULTIINSTACE_COMMAND "Read Multi-Instance";
+}

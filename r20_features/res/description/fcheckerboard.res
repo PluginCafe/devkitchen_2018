@@ -1,0 +1,10 @@
+CONTAINER Fcheckerboard
+{
+	NAME Fcheckerboard;
+	INCLUDE Ofield;
+
+	GROUP ID_FIELDPROPERTIES
+	{
+		REAL FIELD_CHECKERBOARD_SIZE { STEP 1.0; MIN 0.0; }
+	}
+}

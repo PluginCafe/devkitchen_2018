@@ -1,0 +1,9 @@
+#ifndef FLNEXTNEIGHBORDISTANCE_H__  
+#define FLNEXTNEIGHBORDISTANCE_H__
+
+enum
+{
+
+};
+#endif	// FLNEXTNEIGHBORDISTANCE_H__
+

@@ -1,0 +1,4 @@
+STRINGTABLE FLNextneighbordistance
+{
+	FLNextneighbordistance														"Next Neighbor Distance";
+}
