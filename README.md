@@ -1,7 +1,7 @@
 # DevKitchen 2018
 
 This repository contains the examples shown at the DevKitchen 2018 occurred in Frankfurt during the SuperMeet 2018 on 1st and 2nd of November 2018.
-More information about the presentation are available on [DevKitchen Planning](https://developers.maxon.net/?p=3288).
+More information about the presentation are available on [DevKitchen 2018 Aftermath](https://developers.maxon.net/?p=3319).
 
 ### Plugin Migration
 
